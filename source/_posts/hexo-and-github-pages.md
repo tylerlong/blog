@@ -3,9 +3,14 @@ date: 2014-04-18 12:57:24
 tags:
 ---
 
-这里记录下如何结合 Hexo 和 GitHub Pages 来写博客。 Hexo 允许你用 markdown 写作，最后生成静态的 HTML 内容。 Github Pages 允许你提交静态的网站，它帮你托管。 二者结合，正好完成从写作到托管一整套博客流程。
+这里记录下如何结合 [Hexo](https://github.com/tommy351/hexo) 和 [GitHub Pages](https://pages.github.com/) 来写博客。 Hexo 允许你用 markdown 写作，最后生成静态的 HTML 内容。 Github Pages 允许你提交静态的网站，它帮你托管。 二者结合，正好完成从写作到托管一整套博客流程。
 
-以当前我的博客为例。我注册了两个源码库：[blog](https://github.com/tylerlong/blog) 和 [tylerlong.github.io](https://github.com/tylerlong/tylerlong.github.io)。 第一个源码库用来写作 markdown, 第二个用来托管最终的博客网站。 为什么要用两个源码库？ 为什么不用一个源码库的两个分支呢？ 因为第二个源码库的内容都是自动生成的，不想它和自己写作的内容混在一起。 另外注意第二个源码库的名称，正好是我的博客的地址。Github 会很智能地托管这个代码库的内容为博客网站的内容。
+以当前我的博客为例。我注册了两个源码库：[blog](https://github.com/tylerlong/blog) 和 [tylerlong.github.io](https://github.com/tylerlong/tylerlong.github.io)。 第一个源码库用来写作 markdown, 第二个用来托管最终的博客网站。
+
+- 为什么要用两个源码库？ 为什么不用一个源码库的两个分支呢？ 因为第二个源码库的内容都是自动生成的，不想它和自己写作的内容混在一起。
+- 另外注意第二个源码库的名称，正好是我的博客的地址。Github 会很智能地托管这个代码库的内容为博客网站的内容。
+
+Hexo 是基于 Node.js 的博客引擎。Node.js 的安装配置以及 Hexo 的安装配置不写了，网上能找到相关资料。下面开始主要的流程：
 
 新建博客：
 
