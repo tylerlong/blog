@@ -1,6 +1,8 @@
-title: Hello World
-date: 2014-04-18 12:46:34
+title: 博客重新开张
+date: 2014-04-18 12:33:20
 tags:
 ---
 
-Welcome to [Hexo](http://hexo.io)! This is your very first post. Check [documentation](http://hexo.io/docs) to learn how to use.
+又开始写博客了！博客中断了好久，主要是因为没有找到一个好用的写作平台。曾经自己写过Rails的博客程序，托管到了VPS上。虽然显得很geek，但是维护挺麻烦。一个不小心就把数据搞丢了。
+
+这次准备使用 [Hexo](http://hexo.io) 来写，托管到 [GitHub Pages](https://pages.github.com/)。前者支持markdown，后者则能保证数据丢不了，并且不用自己维护服务器。希望这次能够把写博客坚持下去。
